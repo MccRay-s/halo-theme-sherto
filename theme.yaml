@@ -1,0 +1,11 @@
+id: sherto_site
+name: sherto
+author:
+  name: mccray
+  website: https://sherto.com
+description: 商徒官网
+logo: https://avatars.githubusercontent.com/u/24934739?v=4
+# website: https://sherto.com
+# repo: https://sherto.com
+version: 1.0.0
+require: 1.4.0
