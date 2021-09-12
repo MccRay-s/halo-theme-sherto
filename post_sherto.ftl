@@ -208,15 +208,21 @@
 													<a class="feed-img" href="blog-single-sidebar.html">
 														<img src="${post.thumbnail!'${theme_base}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
 													</a>
+													<#--  <#if post.categories?? && post.categories?size gt 0>
+													<#list post.categories as categoryItem>
+														<a href="${categoryItem.fullPath!}" class="cetagory">${categoryItem.name!}</a>
+													</#list>
+													</#if>  -->
+													<h6 class="post-title">
+														<a href="${post.fullPath!}">${post.title!}</a>
+													</h6>
+													<span class="time"><i class="lni lni-calendar"></i> ${post.createTime!}</span>
 													<#if post.categories?? && post.categories?size gt 0>
 													<#list post.categories as categoryItem>
 														<a href="${categoryItem.fullPath!}" class="cetagory">${categoryItem.name!}</a>
 													</#list>
 													</#if>
-													<h6 class="post-title">
-														<a href="${post.fullPath!}">${post.title!}</a>
-													</h6>
-													<span class="time"><i class="lni lni-calendar"></i> ${post.createTime!}</span>
+													
 												</div>
 											</div>
 										</#list>
