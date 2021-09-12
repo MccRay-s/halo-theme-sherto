@@ -1,6 +1,6 @@
 <#include "module/macro.ftl">
 <@layout title="${blog_title!}" team="商徒聚客">
-    <div class="breadcrumbs">
+    <#--  <div class="breadcrumbs">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 offset-lg-2 col-md-12 col-12">
@@ -11,13 +11,11 @@
 						<#list categories as category>
 							<li><a href="javaScript:void(0);">${category.name!}</a></li>
 						</#list>
-							<#--  <li><a href="index.html">Home</a></li>
-							<li>Blog Single Sidebar</li>  -->
 						</ul>
 					</div>
 				</div>
 			</div>
-    </div>
+    </div>  -->
 		<section class="section blog-single">
 			<div class="container">
 				<div class="row">
@@ -60,8 +58,8 @@
 										${post.formatContent!}
 									</div>
 								</div>
-								<#include "module/comment.ftl">
-								<@comment post=post type="post" />
+								<#--  <#include "module/comment.ftl">
+								<@comment post=post type="post" />  -->
 								<#--  <div class="post-comments">
 									<h3 class="comment-title"><span>文章评论</span></h3>
 									<ul class="comments-list">
@@ -192,13 +190,13 @@
 					</div>
 					<aside class="col-lg-4 col-md-12 col-12">
 						<div class="sidebar blog-grid-page">
-							<div class="widget search-widget">
+							<#--  <div class="widget search-widget">
 								<h5 class="widget-title">搜索文章</h5>
 								<form action="#">
 									<input type="text" placeholder="输入内容进行搜索..." />
 									<button type="submit"><i class="lni lni-search-alt"></i></button>
 								</form>
-							</div>
+							</div>  -->
 
 							<div class="widget popular-feeds">
 								<h5 class="widget-title">推荐文章</h5>
@@ -207,9 +205,9 @@
 										<#list posts as post>
 											<div class="single-popular-feed">
 												<div class="feed-desc">
-													<#--  <a class="feed-img" href="blog-single-sidebar.html">
-														<img src="${post.thumbnail!'${theme_base}/source/images/post_default_thumbnail.jpg'}" alt="${post.title!}" />
-													</a>  -->
+													<a class="feed-img" href="blog-single-sidebar.html">
+														<img src="${post.thumbnail!'${theme_base}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
+													</a>
 													<#if post.categories?? && post.categories?size gt 0>
 													<#list post.categories as categoryItem>
 														<a href="${categoryItem.fullPath!}" class="cetagory">${categoryItem.name!}</a>

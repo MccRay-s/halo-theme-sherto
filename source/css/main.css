@@ -1054,10 +1054,27 @@ ol {
   text-transform: capitalize;
   position: relative;
   font-weight: 800;
+  display: inline-block;
+}
+
+.section-title h2::before,.section-title h2::after{
+  bottom: -1px;
+  content: '';
+  position: absolute;
+  top: 50%;
+  background: #888;
+  width: 60px;
+  height: 1px;
+}
+.section-title h2::before{
+  left: -85px;
+}
+.section-title h2::after{
+  right: -85px;
 }
 
 .section-title p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1512,11 +1529,11 @@ ol {
 
 @media (max-width: 767px) {
   .header {
-    padding: 18px 0 !important;
+    padding: 10px 0 !important;
   }
-  .header .mobile-menu-btn .toggler-icon {
+  /* .header .mobile-menu-btn .toggler-icon {
     background-color: #fff;
-  }
+  } */
   .header .navbar-collapse {
     position: absolute;
     top: 58px !important;
@@ -1536,7 +1553,7 @@ ol {
     color: #ff6b81 !important;
   }
   .header .navbar .navbar-nav .nav-item a.active {
-    color: #ff6b81 !important;
+    color: #000000 !important;
   }
   .header .navbar-nav .nav-item {
     margin: 0;
@@ -1684,7 +1701,8 @@ ol {
 }
 
 .sticky .navbar .navbar-nav .nav-item a.active {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
 }
 
 .sticky .navbar .navbar-nav .nav-item a {
@@ -1707,7 +1725,7 @@ ol {
 .navbar-area {
   width: 100%;
   z-index: 99;
-  background-color: #095086;
+  background-color: #0f6cb1;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 0;
@@ -1716,9 +1734,10 @@ ol {
 .navbar-area.sticky {
   position: fixed;
   z-index: 99;
-  background: #095086;
-  -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
-          box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
+  /* background: #095086; */
+  background: #ffffff;
+  -webkit-box-shadow: 0px 3px 5px #00000017;
+          box-shadow: 0px 3px 5px #00000017;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   /* background: #fff; */
@@ -1747,11 +1766,15 @@ ol {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+.navbar-area.sticky .mobile-menu-btn .toggler-icon{
+  background-color: #000;
+}
 
 .mobile-menu-btn .toggler-icon {
+  
   width: 30px;
   height: 2px;
-  background-color: #222;
+  background-color: #fff;
   display: block;
   margin: 5px 0;
   position: relative;
@@ -1794,7 +1817,7 @@ ol {
 }
 
 .navbar-nav .nav-item a {
-  font-size: 12px;
+  font-size: 16px;
   color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -1981,7 +2004,7 @@ ol {
 ========================================*/
 .hero-area {
   position: relative;
-  padding: 180px 0 120px 0;
+  padding: 120px 0px 80px 0px;
   background: #0f6cb1;
 }
 
@@ -2001,7 +2024,7 @@ ol {
 }
 
 .hero-area .hero-image img {
-  width: 50%;
+  width: 70%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2037,13 +2060,15 @@ ol {
 }
 
 .hero-area .hero-content p {
-  margin-top: 30px;
-  font-size: 20px;
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 40px;
+  height: 40px;
   color: #fff;
 }
 
 .hero-area .hero-content .button {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .hero-area .hero-content .button .btn {
@@ -2051,26 +2076,27 @@ ol {
   color: #0f6cb1;
   margin-right: 12px;
   min-width: 170px;
+  border-radius: 30px;
 }
 
 .hero-area .hero-content .button .btn i {
   font-size: 17px;
 }
 
-.hero-area .hero-content .button .btn:hover {
+/* .hero-area .hero-content .button .btn:hover {
   background-color: #081828;
   color: #fff;
-}
+} */
 
-.hero-area .hero-content .button .btn.btn-alt {
-  background-color: #ffffff6b;
+.hero-area .hero-content .button .btn.btn-android {
+  background-color: #5ab904;
   color: #fff;
 }
 
-.hero-area .hero-content .button .btn.btn-alt:hover {
+/* .hero-area .hero-content .button .btn.btn-alt:hover {
   background-color: #fff;
   color: #ff6b81;
-}
+} */
 
 @media (max-width: 767px) {
   .hero-area .hero-content .button .video-button {
@@ -2208,7 +2234,7 @@ ol {
   .hero-area .hero-content .button .btn {
     width: 60%;
     margin: 0;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
   }
   .hero-area .hero-content .button .btn:last-child {
     margin: 0;
@@ -2219,7 +2245,7 @@ ol {
     Features Area CSS
 ========================================*/
 .features {
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
 
 .features .section-title {
@@ -2239,10 +2265,8 @@ ol {
 }
 
 .features .single-feature .features-img{
-  height: 300px;
-  width: 300px;
   margin: 0px auto;
-  padding: 20px;
+  padding: 0px 40px;
   text-align: center;
   overflow: hidden;
 }
@@ -2471,12 +2495,20 @@ ol {
     Call To Action CSS
 ========================================*/
 .call-action {
-  background-color: #ff6b81;
+  /* position: absolute; */
+  /* height: 400px; */
+  background-color: transparent;
+  background-image: url(../images/about-bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  /* left: 0px; */
+  /* width: 1200px; */
+  /* background-color: #ff6b81; */
 }
 
 .call-action .cta-content {
   text-align: center;
-  padding: 0px 50px;
+  /* padding: 0px 50px; */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2494,9 +2526,27 @@ ol {
 .call-action .cta-content h2 {
   color: #fff;
   line-height: 50px;
-  font-size: 38px;
+  font-size: 34px;
   font-weight: 700;
   margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+.call-action .cta-content h2::before,.call-action .cta-content h2::after{
+  bottom: -1px;
+  content: '';
+  position: absolute;
+  top: 50%;
+  background: #fff;
+  width: 60px;
+  height: 1px;
+}
+.call-action .cta-content h2::before{
+  left: -85px;
+}
+.call-action .cta-content h2::after{
+  right: -85px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2515,7 +2565,11 @@ ol {
 
 .call-action .cta-content p {
   color: #fff;
-  padding: 0px 50px;
+  /* padding: 0px 50px; */
+  /* line-height: 35px;
+  height: 35px; */
+  line-height: 35px;
+  font-size: 18px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2999,7 +3053,7 @@ footer .single-footer .footer-img img{
 
 /** start add Blog */
 .blog-section {
-  background-color: #f9f9f9
+  background-color: #ffffff;
 }
 
 .blog-section .section-title {
@@ -3021,8 +3075,8 @@ footer .single-footer .footer-img img{
 .blog-section .single-blog {
   margin-top: 30px;
   overflow: hidden!important;
-  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.164);
-  box-shadow: 0 5px 10px rgba(0,0,0,.164);
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.08);
+  box-shadow: 0 5px 10px rgba(0,0,0,.08);
   border-radius: 8px;
   background-color: #fff
 }
@@ -3076,7 +3130,7 @@ footer .single-footer .footer-img img{
 }
 
 .blog-section .single-blog .blog-content p {
-  display: block;
+  /* display: block; */
   margin-top: 20px;
   word-break:break-all;
   display:-webkit-box;/**对象作为伸缩盒子模型展示**/
@@ -3686,13 +3740,15 @@ footer .single-footer .footer-img img{
   position: absolute;
   left: 0;
   top: 5px;
+  width: 80px;
+  height: 80px;
   overflow: hidden
 }
 
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .feed-img img {
-  width: 80px;
+  height: 100%;
   border-radius: 8px;
-  height: 80px
+  object-fit: cover;
 }
 
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .post-title {

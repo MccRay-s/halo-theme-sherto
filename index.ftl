@@ -9,8 +9,8 @@
                         <h1 class="wow fadeInLeft" data-wow-delay=".4s">商徒聚客</h1>
                         <p class="wow fadeInLeft" data-wow-delay=".6s">找客户 | 找资源 | 找老板 - 上商徒聚客</p>
                         <div class="button wow fadeInLeft" data-wow-delay=".8s">
-                            <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> IOS 下载</a>
                             <a href="javascript:void(0)" class="btn"><i class="lni lni-android-original"></i>Android 下载</a>
+                            <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> IOS 下载</a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <div class="section-title">
                         <#--  <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>  -->
                         <h2 class="wow fadeInUp" data-wow-delay=".4s">产品特点</h2>
-                        <#--  <p class="wow fadeInUp" data-wow-delay=".6s">庞大的数据体量，覆盖全国各地各个地方，需要的，我们都提供给您。</p>  -->
+                        <p class="wow fadeInUp" data-wow-delay=".6s">让创业更简单，让业务更好做</p>
                     </div>
                 </div>
             </div>
@@ -114,6 +114,58 @@
     </section>
     <!-- End Features Area -->
 
+
+    <!-- Start Call To Action Area -->
+    <section class="section call-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-12">
+            <div class="cta-content">
+              <h2
+                class="wow fadeInUp"
+                data-wow-delay=".2s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.2s;
+                  animation-name: fadeInUp;
+                "
+              >
+                关于商徒聚客
+              </h2>
+              <p
+                class="wow fadeInUp"
+                data-wow-delay=".4s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.4s;
+                  animation-name: fadeInUp;
+                "
+              >商徒聚客是集客源采集、客户管理于一体的大数据拓客营销App，整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。并提供先进完善的客户营销和管理。公司以用户需求为中心，用户利益为导向，为企业拓客提供数据化服务、系统化管理。
+              </p>
+              <#--  <div
+                class="button wow fadeInUp"
+                data-wow-delay=".6s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.6s;
+                  animation-name: fadeInUp;
+                "
+              >
+                <a href="javascript:void(0)" class="btn"
+                  ><i class="lni lni-apple"></i> App Store</a
+                >
+                <a href="javascript:void(0)" class="btn btn-alt"
+                  ><i class="lni lni-play-store"></i> Google Play</a
+                >
+              </div>  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Call To Action Area -->
+
+
     <!-- Start Blog Area -->
     <section id="blog" class="blog-section section">
       <div class="container">
@@ -128,12 +180,12 @@
                 style="visibility: visible;animation-delay: 0.4s;animation-name: fadeInUp;">
                 客户案例
               </h2>
-              <#--  <p
+              <p
                 class="wow fadeInUp"
                 data-wow-delay=".6s"
                 style="visibility: visible;animation-delay: 0.6s;animation-name: fadeInUp;">
-                客户数据很多，都是老板，大多加了微信，效果不错，不仅有销售，和很多老板都熟悉了，行业资源丰富了很多
-              </p>  -->
+                客户的满意，是对我们最大的鼓励
+              </p>
             </div>
           </div>
         </div>
@@ -146,7 +198,7 @@
                   style="visibility: visible;animation-delay: 0.2s;animation-name: fadeInUp;">
                   <div class="blog-img">
                     <a href="${post.fullPath!}">
-                      <img src="${post.thumbnail!'/upload/2021/08/creating-a-custom-theme-a8ff520f5da949608b1e056acb22702e.png'}" alt="${post.title!}" />
+                      <img src="${post.thumbnail!'${theme_base!}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
                     </a>
                   </div>
                   <div class="blog-content">
