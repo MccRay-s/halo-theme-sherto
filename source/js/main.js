@@ -24,12 +24,12 @@ Author: GrayGrids
 
         var logo = document.querySelector('.navbar-brand img')
         if (window.pageYOffset > sticky) {
-            if(!header_navbar.classList.includes('sticky')){
+            if(!header_navbar.classList.contains('sticky')){
                 header_navbar.classList.add("sticky");
                 logo.src = '/upload/2021/09/%E5%95%86%E5%BE%92%E7%BB%84%E5%90%88Logo-%E9%BB%91%E8%89%B2-244a062284ab4c5b912764c75f4c219f.png';
             }
         } else {
-            if(header_navbar.classList.includes('sticky')){
+            if(header_navbar.classList.contains('sticky')){
                 header_navbar.classList.remove("sticky");
                 logo.src = '/upload/2021/08/%E8%B5%84%E6%BA%90%2062-4ea3dc50fe79438ba164a83ae77992ab.png';
             }
@@ -37,10 +37,12 @@ Author: GrayGrids
 
         // show or hide the back-top-top button(回到顶部)
         var backToTo = document.querySelector(".scroll-top");
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            backToTo.style.display = "flex";
-        } else {
-            backToTo.style.display = "none";
+        if(backToTo){
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                backToTo.style.display = "flex";
+            } else {
+                backToTo.style.display = "none";
+            }
         }
     };
 

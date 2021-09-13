@@ -31,33 +31,67 @@
 										<ul class="meta-info">
 											<li>
 												<a href="javascript:void(0)">
-													<img src="${user.avatar!default('')}" alt="#" />${user.nickname!}
+													<i class="lni lni-calendar"></i>${user.createTime!}
 												</a>
 											</li>
+											<li>
+												<a href="javascript:void(0)"><i class="lni lni-timer"></i>${post.wordCount}字</a>
+											</li>
+											<#if post.tags?? && post.tags?size gt 0>
 											<li>
 												<a href="javascript:void(0)">
-													<i class="lni lni-calendar"></i>${post.createTime!}
+													<i class="lni lni-tag"></i><#list post.tags as tagitem>${tagitem.name!}|</#list>
 												</a>
 											</li>
-											<li>
+											</#if>
+											<#--  <li>
 												<a href="javascript:void(0)"
 													><i class="lni lni-tag"></i> ${post.commentCount}条评论</a
 												>
-											</li>
-											<li>
-												<a href="javascript:void(0)"
-													><i class="lni lni-timer"></i>${post.wordCount}字</a
-												>
-											</li>
+											</li>  -->
+											
 										</ul>
 									</div>
-									<div class="post-thumbnils">
+									<#--  <div class="post-thumbnils">
 										<img src="${post.thumbnail}" alt="#" />
-									</div>
+									</div>  -->
 									<div class="detail-inner">
 										${post.formatContent!}
 									</div>
 								</div>
+								<#if categories?? && categories?size gt 0>
+								<div class="post-comments">
+									<h3 class="comment-title"><span>同类文章</span></h3>
+									<ul class="comments-list">
+										<#list categories as category>
+										<#if category_index == 0>
+											<@postTag method="listByCategoryId" categoryId="${category.id}">
+											<#list posts as post>
+												<li>
+													<div class="comment-img">
+														<img src="${post.thumbnail!'${theme_base}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
+													</div>
+													<div class="comment-desc">
+														<div class="desc-top">
+															<h6><a href="${post.fullPath!}">${post.title!}</a></h6>
+															<span class="date">${post.createTime!}</span>
+															<#--  <a href="${post.fullPath!}" class="reply-link" target="view_window">
+																<i class="lni lni-reply"></i>详情
+															</a>  -->
+														</div>
+														<p>
+															${post.summary!}
+														</p>
+													</div>
+												</li>
+											</#list>
+											</@postTag>
+										</#if>
+										</#list>
+									</ul>
+								</div>
+								</#if>
+
 								<#--  <#include "module/comment.ftl">
 								<@comment post=post type="post" />  -->
 								<#--  <div class="post-comments">
@@ -205,7 +239,7 @@
 										<#list posts as post>
 											<div class="single-popular-feed">
 												<div class="feed-desc">
-													<a class="feed-img" href="blog-single-sidebar.html">
+													<a class="feed-img" href="${post.fullPath!}">
 														<img src="${post.thumbnail!'${theme_base}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
 													</a>
 													<#--  <#if post.categories?? && post.categories?size gt 0>
@@ -241,7 +275,7 @@
 								</ul>
 							</div>  -->
 
-							<div class="widget popular-tag-widget">
+							<#--  <div class="widget popular-tag-widget">
 								<h5 class="widget-title">标签</h5>
 								<div class="tags">
 								<#if post.tags?? && post.tags?size gt 0>
@@ -250,7 +284,7 @@
 								</#list>
 								</#if>
 								</div>
-							</div>
+							</div>  -->
 						</div>
 					</aside>
 				</div>
