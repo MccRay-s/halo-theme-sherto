@@ -19,7 +19,7 @@
 		<section class="section blog-single">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 col-md-12 col-12">
+					<div class="col-lg-12 col-md-12 col-12">
 						<div class="single-inner">
 							<div class="post-details">
 								<div class="main-content-head">
@@ -254,71 +254,6 @@
 							</div>
 						</div>
 					</div>
-					<aside class="col-lg-4 col-md-12 col-12">
-						<div class="sidebar blog-grid-page">
-							<#--  <div class="widget search-widget">
-								<h5 class="widget-title">搜索文章</h5>
-								<form action="#">
-									<input type="text" placeholder="输入内容进行搜索..." />
-									<button type="submit"><i class="lni lni-search-alt"></i></button>
-								</form>
-							</div>  -->
-
-							<div class="widget popular-feeds">
-								<h5 class="widget-title">推荐文章</h5>
-								<div class="popular-feed-loop">
-									<@postTag method="listByCategorySlug" categorySlug="tjwz">
-										<#list posts as post>
-											<div class="single-popular-feed">
-												<div class="feed-desc">
-													<a class="feed-img" href="${post.fullPath!}">
-														<img src="${post.thumbnail!'${theme_base}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
-													</a>
-													<#--  <#if post.categories?? && post.categories?size gt 0>
-													<#list post.categories as categoryItem>
-														<a href="${categoryItem.fullPath!}" class="cetagory">${categoryItem.name!}</a>
-													</#list>
-													</#if>  -->
-													<h6 class="post-title">
-														<a href="${post.fullPath!}">${post.title!}</a>
-													</h6>
-													<span class="time"><i class="lni lni-calendar"></i> ${post.createTime!}</span>
-													<#if post.categories?? && post.categories?size gt 0>
-													<#list post.categories as categoryItem>
-														<a href="${categoryItem.fullPath!}" class="cetagory">${categoryItem.name!}</a>
-													</#list>
-													</#if>
-													
-												</div>
-											</div>
-										</#list>
-									</@postTag>
-								</div>
-							</div>
-
-							<#--  <div class="widget categories-widget">
-								<h5 class="widget-title">分类</h5>
-								<ul class="custom">
-									<@categoryTag method="list">
-										<#list categories as category>
-											<li><a href="${category.fullPath!}">${category.name!}（${category.postCount!}）</a></li>
-										</#list>
-									</@categoryTag>
-								</ul>
-							</div>  -->
-
-							<#--  <div class="widget popular-tag-widget">
-								<h5 class="widget-title">标签</h5>
-								<div class="tags">
-								<#if post.tags?? && post.tags?size gt 0>
-								<#list post.tags as tagitem>
-									<a href="javaScript:void(0);">${tagitem.name!}</a>
-								</#list>
-								</#if>
-								</div>
-							</div>  -->
-						</div>
-					</aside>
 				</div>
 			</div>
 		</section>
