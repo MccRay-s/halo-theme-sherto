@@ -271,9 +271,9 @@
 										<#list posts as post>
 											<div class="single-popular-feed">
 												<div class="feed-desc">
-													<a class="feed-img" href="${post.fullPath!}">
+													<#--  <a class="feed-img" href="${post.fullPath!}">
 														<img src="${post.thumbnail!'${theme_base}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
-													</a>
+													</a>  -->
 													<#--  <#if post.categories?? && post.categories?size gt 0>
 													<#list post.categories as categoryItem>
 														<a href="${categoryItem.fullPath!}" class="cetagory">${categoryItem.name!}</a>
@@ -283,11 +283,12 @@
 														<a href="${post.fullPath!}">${post.title!}</a>
 													</h6>
 													<span class="time"><i class="lni lni-calendar"></i> ${post.createTime!}</span>
-													<#if post.categories?? && post.categories?size gt 0>
+													<span class="visits"><i class="lni lni-eye"></i> ${post.visits!}</span>
+													<#--  <#if post.categories?? && post.categories?size gt 0>
 													<#list post.categories as categoryItem>
 														<a href="${categoryItem.fullPath!}" class="cetagory">${categoryItem.name!}</a>
 													</#list>
-													</#if>
+													</#if>  -->
 													
 												</div>
 											</div>
