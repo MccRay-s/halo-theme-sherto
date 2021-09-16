@@ -69,15 +69,15 @@
 											<@postTag method="listByTagId" tagId="${tag.id}">
 											<#list posts as post>
 												<li>
-													<div class="comment-img">
+													<#--  <div class="comment-img">
 														<img src="${post.thumbnail!'${theme_base}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
-													</div>
+													</div>  -->
 													<div class="comment-desc">
 														<div class="desc-top">
 															<h6><a href="${post.fullPath!}">${post.title!}</a></h6>
 															<span class="date">${post.createTime!}</span>
-															<#--  <a href="${post.fullPath!}" class="reply-link" target="view_window">
-																<i class="lni lni-reply"></i>详情
+															<#--  <a href="javaScript:void(0)" class="reply-link">
+																<i class="lni lni-eye"></i>${post.visits!}
 															</a>  -->
 														</div>
 														<p>
@@ -101,15 +101,15 @@
 											<@postTag method="listByCategoryId" categoryId="${category.id}">
 											<#list posts as post>
 												<li>
-													<div class="comment-img">
+													<#--  <div class="comment-img">
 														<img src="${post.thumbnail!'${theme_base}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
-													</div>
+													</div>  -->
 													<div class="comment-desc">
 														<div class="desc-top">
 															<h6><a href="${post.fullPath!}">${post.title!}</a></h6>
 															<span class="date">${post.createTime!}</span>
-															<#--  <a href="${post.fullPath!}" class="reply-link" target="view_window">
-																<i class="lni lni-reply"></i>详情
+															<#--  <a href="javaScript:void(0)" class="reply-link">
+																<i class="lni lni-eye"></i>${post.visits!}
 															</a>  -->
 														</div>
 														<p>
@@ -281,9 +281,10 @@
 													</#if>  -->
 													<h6 class="post-title">
 														<a href="${post.fullPath!}">${post.title!}</a>
+														<span class="visits"><i class="lni lni-eye"></i> ${post.visits!}</span>
 													</h6>
 													<span class="time"><i class="lni lni-calendar"></i> ${post.createTime!}</span>
-													<span class="visits"><i class="lni lni-eye"></i> ${post.visits!}</span>
+													
 													<#--  <#if post.categories?? && post.categories?size gt 0>
 													<#list post.categories as categoryItem>
 														<a href="${categoryItem.fullPath!}" class="cetagory">${categoryItem.name!}</a>

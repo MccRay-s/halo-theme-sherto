@@ -3273,7 +3273,7 @@ footer .single-footer .footer-img img{
   }
 
   .blog-single .meta-info li:first-child {
-      display: block;
+      /* display: block; */
       margin-bottom: 15px
   }
 }
@@ -3339,6 +3339,11 @@ footer .single-footer .footer-img img{
   border-bottom: 1px solid #eee;
 }
 
+.blog-single .detail-inner p {
+  color: #000;
+  line-height: 30px;
+}
+
 @media(max-width: 767px) {
   /* .blog-single .detail-inner {
       padding:25px
@@ -3382,7 +3387,8 @@ footer .single-footer .footer-img img{
 
 .blog-single p {
   /* font-size: 14px; */
-  margin: 20px 0;
+  /* margin: 20px 0; */
+  /* color: #000; */
   line-height: 26px
 }
 
@@ -3392,7 +3398,7 @@ footer .single-footer .footer-img img{
 
 .blog-single h3 {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: 600;
   line-height: 28px
 }
@@ -3437,7 +3443,7 @@ footer .single-footer .footer-img img{
 
 .post-comments .comments-list li {
   /* padding: 30px; */
-  padding-left: 200px;
+  /* padding-left: 200px; */
   position: relative;
   font-size: 14px;
   /* background-color: #f9f9f9; */
@@ -3495,14 +3501,14 @@ footer .single-footer .footer-img img{
 }
 
 .post-comments .comments-list li .comment-desc .desc-top {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
   display: block
 }
 
 .post-comments .comments-list li .comment-desc .desc-top h6 {
   font-size: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-weight: 500
 }
 
@@ -3562,8 +3568,8 @@ footer .single-footer .footer-img img{
 }
 
 .post-comments .comments-list li:not(:first-child) {
-  padding-top: 30px;
-  margin-top: 30px;
+  padding-top: 10px;
+  margin-top: 10px;
   border-top: 1px solid #eee
 }
 
@@ -3642,7 +3648,7 @@ footer .single-footer .footer-img img{
 }
 
 .sidebar .widget {
-  padding: 20px 0px;
+  padding: 20px 0px 20px 40px;
   /* background-color: #fff; */
   margin-bottom: 30px;
   border-radius: 8px;
@@ -3780,12 +3786,23 @@ footer .single-footer .footer-img img{
 
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .post-title {
   margin-bottom: 12px;
-  line-height: 1.5
+  line-height: 1.5;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .post-title a {
   font-size: 16px;
   font-weight: 400;
+  /* width: 88%; */
+  word-break:break-all; 
+  display:-webkit-box;/**对象作为伸缩盒子模型展示**/
+  -webkit-box-orient:vertical;/**设置或检索伸缩盒子对象的子元素的排列方式**/
+  -webkit-line-clamp:1;/**显示的行数**/
+  overflow:hidden;/**隐藏超出的内容**/
+
 }
 
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .post-title a:hover {
@@ -3800,9 +3817,14 @@ footer .single-footer .footer-img img{
   margin-bottom: 10px;
 }
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .visits{
-  position: absolute;
-  right: 10px;
-  top: 3px;
+  /* position: absolute; */
+  /* right: 10px; */
+  /* top: 3px; */
+  min-width: 40px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #888;
+  float: right;
 }
 
 .sidebar .widget.popular-feeds .single-popular-feed .feed-desc .time i {
