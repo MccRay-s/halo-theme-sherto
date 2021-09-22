@@ -24,247 +24,210 @@
     </section>
     <!-- End Hero Area -->
 
-    <!-- Start Features Area -->
-    <section id="features" class="features section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <#--  <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>  -->
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">产品特点</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">让创业更简单，让业务更好做</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <#--  <i class="lni lni-cloud-upload"></i>  -->
-                        <div class="features-img">
-                          <img class="lni lni-cloud-upload" src="/upload/2021/08/%E5%B8%82%E5%9C%BA%E6%95%B0%E6%8D%AE-388bf741c59f4072a5676b9b9012f2eb.png">
-                        </div>
-                        <h3>1.4亿+ 市场数据</h3>
-                        <div class="feature-desc">庞大的数据体量，覆盖全国各省市地区。</div>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <#--  <i class="lni lni-lock"></i>  -->
-                        <div class="features-img">
-                          <img class="lni lni-cloud-upload" src="/upload/2021/08/%E8%A1%8C%E4%B8%9A%E8%A6%86%E7%9B%96-529fd13b7657487aa2e51b76c9b973cb.png">
-                        </div>
-                        <h3>200+行业覆盖</h3>
-                        <div class="feature-desc">超过200+的行业，覆盖了美容、百货、建材、汽配、科技、数码、互联网等。</div>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <#--  <i class="lni lni-reload"></i>  -->
-                        <div class="features-img">
-                          <img class="lni lni-cloud-upload" src="/upload/2021/08/%E4%B8%80%E9%94%AE%E9%87%87%E9%9B%86-7238255f5b5e43debcb552aa3a6fbeb4.png">
-                        </div>
-                        <h3>关键词一键采集</h3>
-                        <div class="feature-desc">输入想采集的行业关键词，选择采集区域，一键便可获取你想要的行业数据。</div>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <#--  <i class="lni lni-shield"></i>  -->
-                        <div class="features-img">
-                          <img class="lni lni-cloud-upload" src="/upload/2021/08/%E6%89%B9%E9%87%8F%E6%B7%BB%E5%8A%A0%E5%BE%AE%E4%BF%A1-4119b3dc46664e9b98c124de00bb4071.png">
-                        </div>
-                        <h3>快捷添加微信</h3>
-                        <div class="feature-desc">采集数据完成后，批量导出通讯录，微信发现手机联系人，一键添加。</div>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <#--  <i class="lni lni-cog"></i>  -->
-                        <div class="features-img">
-                          <img class="lni lni-cloud-upload" src="/upload/2021/08/%E7%9F%AD%E4%BF%A1%E8%90%A5%E9%94%80-df977fc57e574ca7ac6eec342a7dc707.png">
-                        </div>
-                        <h3>营销短信群发</h3>
-                        <div class="feature-desc">自带短信营销功能，批量选择客户，编辑短信内容，一键群发</div>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <#--  <i class="lni lni-layers"></i>  -->
-                        <div class="features-img">
-                          <img class="lni lni-cloud-upload" src="/upload/2021/08/%E5%AE%A2%E6%88%B7%E7%AE%A1%E7%90%86-9b60cf629b2041ea94eead21865a1e36.png">
-                        </div>
-                        <h3>智能客户管理</h3>
-                        <div class="feature-desc">智能标识客户沟通状态，实时跟进管理客户，省时省力</div>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
+    <#--  服务介绍 start  -->
+    <section id="overview" class="app-info section">
+      <div class="row">
+        <div class="col-12">
+            <div class="section-title">
+                <h2 class="wow fadeInUp" data-wow-delay=".4s">服务介绍</h2>
             </div>
         </div>
-    </section>
-    <!-- End Features Area -->
-
-
-    <!-- Start Call To Action Area -->
-    <section class="section call-action">
+      </div>
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-12">
-            <div class="cta-content">
-              <h2
-                class="wow fadeInUp"
-                data-wow-delay=".2s"
+        <div class="info-one style2">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-12">
+              <div
+                class="info-image wow fadeInLeft"
+                data-wow-delay=".3s"
+                style="visibility: visible;animation-delay: 0.3s;animation-name: fadeInLeft;">
+                <img class="ss1" src="${theme_base!}/source/images/stjk-img.jpg" alt="#" />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+              <div
+                class="info-text wow fadeInRight"
+                data-wow-delay=".5s"
+                style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
+                <#--  <div class="main-icon">
+                  <i class="lni lni-layout"></i>
+                </div>  -->
+                <h2>商徒来客</h2>
+                <p>
+                  商徒来客是基于搜索引擎推广，关键词排名，深度聚焦网站关键词优化上百度首页的SEO方法，有效提升目标客户的精准访问量和转化率。商徒来客并提供平台建设服务，包括网站建设，微信小程序，公众号搭建，为企业量身定制，在搭建始初从域名，架构，设计等解决后续访问量问题。
+                  
+                </p>
+                <#--  <div class="button">
+                  <a href="javascript:void(0)" class="btn">Get Started</a>
+                </div>  -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-one ">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-12">
+              <div
+                class="info-text wow fadeInLeft"
+                data-wow-delay=".3s"
                 style="
                   visibility: visible;
-                  animation-delay: 0.2s;
-                  animation-name: fadeInUp;
+                  animation-delay: 0.3s;
+                  animation-name: fadeInLeft;
                 "
               >
-                关于商徒聚客
-              </h2>
-              <p
-                class="wow fadeInUp"
-                data-wow-delay=".4s"
-                style="
-                  visibility: visible;
-                  animation-delay: 0.4s;
-                  animation-name: fadeInUp;
-                "
-              >商徒聚客是集客源采集、客户管理于一体的大数据拓客营销App，整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。并提供先进完善的客户营销和管理。公司以用户需求为中心，用户利益为导向，为企业拓客提供数据化服务、系统化管理。
-              </p>
-              <#--  <div
-                class="button wow fadeInUp"
-                data-wow-delay=".6s"
-                style="
-                  visibility: visible;
-                  animation-delay: 0.6s;
-                  animation-name: fadeInUp;
-                "
-              >
-                <a href="javascript:void(0)" class="btn"
-                  ><i class="lni lni-apple"></i> App Store</a
-                >
-                <a href="javascript:void(0)" class="btn btn-alt"
-                  ><i class="lni lni-play-store"></i> Google Play</a
-                >
-              </div>  -->
+                <#--  <div class="main-icon">
+                  <i class="lni lni-inbox"></i>
+                </div>  -->
+                <h2>商徒聚客</h2>
+                <p>
+                  商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。
+                </p>
+                <#--  <div class="button">
+                  <a href="javascript:void(0)" class="btn">Get Started</a>
+                </div>  -->
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+              <div
+                class="info-image wow fadeInRight"
+                data-wow-delay=".5s"
+                style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
+                <img class="ss1" src="${theme_base!}/source/images/stlk-img.jpg" alt="#" />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Call To Action Area -->
+    <#--  服务介绍 end  -->
 
 
-    <!-- Start Blog Area -->
-    <section id="blog" class="blog-section section">
+    <#--  关于我们 start  -->
+    <section id="overview" class="about-info section">
+      <div class="container">
+        <div class="info-one style2">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-12 col-12">
+              <div
+                class="info-image wow fadeInLeft"
+                data-wow-delay=".3s"
+                style="visibility: visible;animation-delay: 0.3s;animation-name: fadeInLeft;">
+                <img class="ss1" src="${theme_base!}/source/images/st-about.jpg" alt="#" />
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-12">
+              <div
+                class="info-text wow fadeInRight"
+                data-wow-delay=".5s"
+                style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
+                <#--  <div class="main-title">
+                  <h2>关于商徒</h2>
+                </div>  -->
+                <h2>关于商徒</h2>
+                <p>
+                  商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
+                  商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。
+                </p>
+                <div class="count">
+                  <div class="item">
+                    <h3>200+</h3>
+                    <p>团队规模</p>
+                  </div>
+                  <div class="item">
+                    <h3>500+</h3>
+                    <p>服务项目</p>
+                  </div>
+                  <div class="item">
+                    <h3>3000+</h3>
+                    <p>服务企业</p>
+                  </div>
+
+                  <#--  <a href="javascript:void(0)" class="btn">Get Started</a>  -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <#--  关于我们 end  -->
+
+    <#--  行业资讯 start  -->
+    <section id="overview" class="news section">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="section-title">
-              <#--  <h3 class="wow zoomIn" data-wow-delay=".2s"
-                style="visibility: visible;animation-delay: 0.2s;animation-name: zoomIn;">
-                case
-              </h3>  -->
-              <h2 class="wow fadeInUp" data-wow-delay=".4s"
-                style="visibility: visible;animation-delay: 0.4s;animation-name: fadeInUp;">
-                客户案例
-              </h2>
-              <p
-                class="wow fadeInUp"
-                data-wow-delay=".6s"
-                style="visibility: visible;animation-delay: 0.6s;animation-name: fadeInUp;">
-                客户的满意，是对我们最大的鼓励
-              </p>
+              <div class="section-title">
+                  <h2 class="wow fadeInUp" data-wow-delay=".4s">行业最新资讯</h2>
+              </div>
+          </div>
+          <div class="new-post">
+            <div class="row gx-3 gy-4">
+              <div class="col-lg-6 col-md-12 col-12 post-warp">
+                <div class="post-item wow fadeInRight"
+                  data-wow-delay=".5s"
+                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
+                  <h6>公司新闻</h6>
+                  <p class="post-time">2021-0-01 22:22:22</p>
+                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
+                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-12 post-warp">
+                <div class="post-item wow fadeInRight"
+                  data-wow-delay=".5s"
+                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
+                  <h6>公司新闻</h6>
+                  <p class="post-time">2021-0-01 22:22:22</p>
+                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
+                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-12 col-12">
+                <div class="post-item wow fadeInRight"
+                  data-wow-delay=".5s"
+                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
+                  <h6>公司新闻</h6>
+                  <p class="post-time">2021-0-01 22:22:22</p>
+                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
+                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-12">
+                <div class="post-item wow fadeInRight"
+                  data-wow-delay=".5s"
+                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
+                  <h6>公司新闻</h6>
+                  <p class="post-time">2021-0-01 22:22:22</p>
+                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
+                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-12 col-12">
+                <div class="post-item wow fadeInRight"
+                  data-wow-delay=".5s"
+                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
+                  <h6>公司新闻</h6>
+                  <p class="post-time">2021-0-01 22:22:22</p>
+                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
+                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <@postTag method="listByCategorySlug" categorySlug="stjk-kehuanli">
-            <#list posts as post>
-              <#--  <a href="${post.fullPath!}">${post.title!}</a>  -->
-              <div class="col-lg-4 col-md-6 col-12">
-                <div class="single-blog wow fadeInUp" data-wow-delay=".2s"
-                  style="visibility: visible;animation-delay: 0.2s;animation-name: fadeInUp;">
-                  <div class="blog-img">
-                    <a href="${post.fullPath!}">
-                      <img src="${post.thumbnail!'${theme_base!}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
-                    </a>
-                  </div>
-                  <div class="blog-content">
-                    <h4><a href="${post.fullPath!}">${post.title!}</a></h4>
-                    <p>${post.summary!}</p>
-                  </div>
-                </div>
-              </div>
-            </#list>
-          </@postTag>
-        </div>
       </div>
     </section>
-    <!-- End Blog Area -->
-
+    <#--  行业资讯 end  -->
 
     <!-- ========================= scroll-top ========================= -->
     <a href="#" class="scroll-top">
       <i class="lni lni-chevron-up"></i>
     </a>
+
+
     
-    <#--  <h1>公告</h1>
-    <p>
-        ${settings.index_notice!}
-    </p>
-
-    <h1>文章列表</h1>
-    <ul>
-        <#list posts.content as post>
-            <li>
-                <a href="${post.fullPath!}">${post.title}</a>
-            </li>
-        </#list>
-    </ul>
-
-    <h1>分页</h1>
-
-    <#if posts.totalPages gt 1>
-        <ul>
-            <@paginationTag method="index" page="${posts.number}" total="${posts.totalPages}" display="3">
-                <#if pagination.hasPrev>
-                    <li>
-                        <a href="${pagination.prevPageFullPath!}">
-                            上一页
-                        </a>
-                    </li>
-                </#if>
-                <#list pagination.rainbowPages as number>
-                    <li>
-                        <#if number.isCurrent>
-                            <span class="current">第 ${number.page!} 页</span>
-                        <#else>
-                            <a href="${number.fullPath!}">第 ${number.page!} 页</a>
-                        </#if>
-                    </li>
-                </#list>
-                <#if pagination.hasNext>
-                    <li>
-                        <a href="${pagination.nextPageFullPath!}">
-                            下一页
-                        </a>
-                    </li>
-                </#if>
-            </@paginationTag>
-        </ul>
-    <#else>
-        <span>当前只有一页</span>
-    </#if>  -->
 </@layout>

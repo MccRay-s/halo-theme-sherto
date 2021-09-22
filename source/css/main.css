@@ -3648,7 +3648,7 @@ footer .single-footer .footer-img img{
 }
 
 .sidebar .widget {
-  padding: 20px 0px 20px 40px;
+  /* padding: 20px 0px 20px 40px; */
   /* background-color: #fff; */
   margin-bottom: 30px;
   border-radius: 8px;
@@ -3656,6 +3656,13 @@ footer .single-footer .footer-img img{
   /* -webkit-box-shadow: 0 1px 20px 0 rgba(32,32,32,.11);
   box-shadow: 0 1px 20px 0 rgba(32,32,32,.11) */
 }
+
+@media (min-width: 767px) {
+  .sidebar .widget {
+    padding: 20px 0px 20px 40px;
+  }
+}
+
 
 @media only screen and (min-width: 768px) and (max-width:991px),(max-width:767px) {
   .sidebar .widget:first-child {
@@ -3910,3 +3917,336 @@ footer .single-footer .footer-img img{
 }
 
 /** end post **/
+
+/*======================================
+    App Info CSS
+========================================*/
+.app-info .info-one {
+  position: relative;
+}
+
+.app-info .info-one .info-image {
+  padding: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .app-info .info-one .info-image {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .app-info .info-one .info-image {
+    padding-top: 20px;
+  }
+}
+
+.app-info .info-one .info-image img {
+  width: 100%;
+}
+
+/* .app-info .info-one.style2 {
+  padding-top: 70px;
+} */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .app-info .info-one.style2 .info-text {
+    padding-top: 60px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .app-info .info-one.style2 .info-text {
+    padding-top: 50px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .app-info .info-one.style2 .info-image {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .app-info .info-one.style2 .info-image {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .app-info .info-one.style2 {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .app-info .info-one.style2 {
+    padding-top: 50px;
+  }
+}
+
+.app-info .info-one.style2 .info-text {
+  padding-left: 40px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .app-info .info-one.style2 .info-text {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .app-info .info-one.style2 .info-text {
+    padding: 0;
+  }
+}
+
+.app-info .info-one .info-text .main-icon {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: block;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #ff6b81;
+  margin-bottom: 30px;
+}
+
+.app-info .info-one .info-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #081828;
+  line-height: 42px;
+}
+
+.app-info .info-one .info-text p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .app-info .info-one .info-text h2 {
+    font-size: 25px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 767px) {
+  .app-info .info-one .info-text h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.app-info .info-one .info-text p {
+  margin-bottom: 15px;
+}
+
+.app-info .info-one .info-text .button {
+  margin-top: 35px;
+}
+
+/*======================================
+  About CSS
+========================================*/
+.about-info{
+  background-color: #f9f9f9;
+}
+.about-info .info-one {
+  position: relative;
+}
+
+.about-info .info-one .info-image {
+  padding: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-info .info-one .info-image {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-info .info-one .info-image {
+    padding-top: 20px;
+  }
+}
+
+.about-info .info-one .info-image img {
+  /* width: 100%; */
+  height: 460px;
+}
+
+/* .about-info .info-one.style2 {
+  padding-top: 70px;
+} */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-info .info-one.style2 .info-text {
+    padding-top: 60px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-info .info-one.style2 .info-text {
+    padding-top: 50px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-info .info-one.style2 .info-image {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-info .info-one.style2 .info-image {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-info .info-one.style2 {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-info .info-one.style2 {
+    padding-top: 50px;
+  }
+}
+
+/* .about-info .info-one.style2 .info-text {
+  padding-left: 40px;
+} */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-info .info-one.style2 .info-text {
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-info .info-one.style2 .info-text {
+    padding: 0;
+  }
+}
+
+.about-info .info-one .info-text .main-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  padding-bottom: 0px;
+  position: relative;
+}
+/* .about-info .info-one .info-text .main-title h2::after{
+  content: 'About Us';
+  position: absolute;
+  bottom: -25px;
+  font-size: 20px;
+  left: 0;
+  font-weight: 200;
+} */
+/* .about-info .info-one .info-text .main-title p{
+  line-height: 30px;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+} */
+
+.about-info .info-one .info-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #081828;
+  line-height: 42px;
+  position: relative;
+}
+.about-info .info-one .info-text h2::after{
+  content: 'About Us';
+  position: absolute;
+  bottom: -25px;
+  font-size: 20px;
+  left: 0;
+  font-weight: 200;
+}
+
+.about-info .info-one .info-text p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-info .info-one .info-text h2 {
+    font-size: 25px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-info .info-one .info-text h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.about-info .info-one .info-text p {
+  margin-bottom: 15px;
+}
+
+.about-info .info-one .info-text .button {
+  margin-top: 35px;
+}
+
+.about-info .info-one .info-text .count{
+  border-top: 1px dashed #cecece;
+  border-bottom: 1px dashed #cecece;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 40px 0px;
+
+}
+.about-info .info-one .info-text .count .item{
+  padding: 10px 40px 10px 0px;
+  text-align: center;
+}
+.about-info .info-one .info-text .count h3{
+  color: #5c6065;
+}
+.about-info .info-one .info-text .count p{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+/*======================================
+  News CSS
+========================================*/
+.news .new-post .post-item{
+  padding: 30px 20px;
+  background-color: #f6f6f6;
+}
+
+.news .new-post .post-item h6{
+  line-height: 40px;
+}
+
+.news .new-post .post-item .post-time{
+  font-size: 10px;
+}
+.news .new-post .post-item p{
+  font-size: 14px;
+  font-weight: 400;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
