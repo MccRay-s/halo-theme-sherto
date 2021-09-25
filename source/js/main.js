@@ -70,17 +70,17 @@ Author: GrayGrids
     // window.document.addEventListener('scroll', onScroll);
     
     // for menu scroll 
-    var pageLink = document.querySelectorAll('.page-scroll');
+    // var pageLink = document.querySelectorAll('.page-scroll');
 
-    pageLink.forEach(elem => {
-        elem.addEventListener('click', e => {
-            e.preventDefault();
-            document.querySelector(elem.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth',
-                offsetTop: 1 - 60,
-            });
-        });
-    });
+    // pageLink.forEach(elem => {
+    //     elem.addEventListener('click', e => {
+    //         e.preventDefault();
+    //         document.querySelector(elem.getAttribute('href')).scrollIntoView({
+    //             behavior: 'smooth',
+    //             offsetTop: 1 - 60,
+    //         });
+    //     });
+    // });
 
     // WOW active
     new WOW().init();
@@ -115,6 +115,4 @@ Author: GrayGrids
     navbarToggler.addEventListener('click', function () {
         navbarToggler.classList.toggle("active");
     });
-
-
 })();

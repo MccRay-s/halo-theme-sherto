@@ -1271,12 +1271,12 @@ ol {
   font-size: 15px;
   font-weight: 600;
   padding: 13px 30px;
-  background-color: #ff6b81;
+  background-color: #081828;
   color: #fff;
   border: none;
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  border-radius: 5px;
+  border-radius: 30px;
   position: relative;
   z-index: 1;
   margin-right: 7px;
@@ -3986,7 +3986,7 @@ footer .single-footer .footer-img img{
 }
 
 .app-info .info-one.style2 .info-text {
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3997,10 +3997,13 @@ footer .single-footer .footer-img img{
 
 @media (max-width: 767px) {
   .app-info .info-one.style2 .info-text {
-    padding: 0;
+    padding: 20px;
   }
 }
 
+.app-info .info-one .info-text{
+  padding: 20px;
+}
 .app-info .info-one .info-text .main-icon {
   height: 60px;
   width: 60px;
@@ -4023,8 +4026,8 @@ footer .single-footer .footer-img img{
 }
 
 .app-info .info-one .info-text p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 35px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4076,8 +4079,8 @@ footer .single-footer .footer-img img{
 }
 
 .about-info .info-one .info-image img {
-  /* width: 100%; */
-  height: 460px;
+  width: 100%;
+  /* height: 460px; */
 }
 
 /* .about-info .info-one.style2 {
@@ -4132,7 +4135,7 @@ footer .single-footer .footer-img img{
 
 @media (max-width: 767px) {
   .about-info .info-one.style2 .info-text {
-    padding: 0;
+    padding: 20px;
   }
 }
 
@@ -4170,15 +4173,15 @@ footer .single-footer .footer-img img{
 .about-info .info-one .info-text h2::after{
   content: 'About Us';
   position: absolute;
-  bottom: -25px;
+  bottom: -30px;
   font-size: 20px;
   left: 0;
   font-weight: 200;
 }
 
 .about-info .info-one .info-text p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 35px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4213,7 +4216,7 @@ footer .single-footer .footer-img img{
 
 }
 .about-info .info-one .info-text .count .item{
-  padding: 10px 40px 10px 0px;
+  padding: 10px 20px 10px 0px;
   text-align: center;
 }
 .about-info .info-one .info-text .count h3{
@@ -4229,10 +4232,29 @@ footer .single-footer .footer-img img{
 /*======================================
   News CSS
 ========================================*/
+/* .news .new-post .post-item:first-child::before{
+  content: '';
+  width: 100px;
+  background-color: #fff;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 0;
+  top: 0;
+
+} */
+.news .new-post .post-item.item-first{
+  background: linear-gradient(135deg, transparent 20px, #081828 0);
+  color: #fff;
+}
+.news .new-post .post-item.item-first h6{
+  color: #fff;
+}
 .news .new-post .post-item{
-  padding: 30px 20px;
+  position: relative;
+  padding: 25px 20px;
   background-color: #f6f6f6;
 }
+
 
 .news .new-post .post-item h6{
   line-height: 40px;

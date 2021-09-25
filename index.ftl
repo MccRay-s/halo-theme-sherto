@@ -1,5 +1,5 @@
 <#include "module/macro.ftl">
-<@layout title="${blog_title!}" team="商徒聚客">
+<@layout title="${blog_title!}" team="">
     <!-- Start Hero Area -->
     <section id="home" class="hero-area">
         <div class="container">
@@ -52,19 +52,17 @@
                 <#--  <div class="main-icon">
                   <i class="lni lni-layout"></i>
                 </div>  -->
-                <h2>商徒来客</h2>
+                <h2>商徒有榜</h2>
                 <p>
-                  商徒来客是基于搜索引擎推广，关键词排名，深度聚焦网站关键词优化上百度首页的SEO方法，有效提升目标客户的精准访问量和转化率。商徒来客并提供平台建设服务，包括网站建设，微信小程序，公众号搭建，为企业量身定制，在搭建始初从域名，架构，设计等解决后续访问量问题。
-                  
+                  商徒有榜是基于搜索引擎推广，关键词排名，深度聚焦网站关键词优化上百度首页的SEO方法，有效提升目标客户的精准访问量和转化率。商徒有榜并提供平台建设服务，包括网站建设，微信小程序，公众号搭建，为企业量身定制，在搭建始初从域名，架构，设计等解决后续访问量问题。
                 </p>
-                <#--  <div class="button">
-                  <a href="javascript:void(0)" class="btn">Get Started</a>
-                </div>  -->
+                <div class="button">
+                  <a href="javascript:void(0)" class="btn">查看详情</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
         <div class="info-one ">
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-12 col-12">
@@ -84,9 +82,9 @@
                 <p>
                   商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。
                 </p>
-                <#--  <div class="button">
-                  <a href="javascript:void(0)" class="btn">Get Started</a>
-                </div>  -->
+                <div class="button">
+                  <a href="https://www.sherto.com/s/shertojk" class="btn">查看详情</a>
+                </div>
               </div>
             </div>
             <div class="col-lg-6 col-md-12 col-12">
@@ -127,7 +125,7 @@
                 </div>  -->
                 <h2>关于商徒</h2>
                 <p>
-                  商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
+                  商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒有榜，商徒xx。
                   商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。
                 </p>
                 <div class="count">
@@ -165,57 +163,20 @@
           </div>
           <div class="new-post">
             <div class="row gx-3 gy-4">
-              <div class="col-lg-6 col-md-12 col-12 post-warp">
-                <div class="post-item wow fadeInRight"
-                  data-wow-delay=".5s"
-                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
-                  <h6>公司新闻</h6>
-                  <p class="post-time">2021-0-01 22:22:22</p>
-                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
-                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-12 col-12 post-warp">
-                <div class="post-item wow fadeInRight"
-                  data-wow-delay=".5s"
-                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
-                  <h6>公司新闻</h6>
-                  <p class="post-time">2021-0-01 22:22:22</p>
-                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
-                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-12 col-12">
-                <div class="post-item wow fadeInRight"
-                  data-wow-delay=".5s"
-                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
-                  <h6>公司新闻</h6>
-                  <p class="post-time">2021-0-01 22:22:22</p>
-                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
-                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-12 col-12">
-                <div class="post-item wow fadeInRight"
-                  data-wow-delay=".5s"
-                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
-                  <h6>公司新闻</h6>
-                  <p class="post-time">2021-0-01 22:22:22</p>
-                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
-                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-12 col-12">
-                <div class="post-item wow fadeInRight"
-                  data-wow-delay=".5s"
-                  style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
-                  <h6>公司新闻</h6>
-                  <p class="post-time">2021-0-01 22:22:22</p>
-                  <p>商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒来客，商徒xx。
-                    商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，</p>
-                </div>
-              </div>
+              <@postTag method="listByCategorySlug" categorySlug="sherto-news">
+                <#list posts as post>
+                  <div class="col-lg-<#if post_index lt 2>6<#else>4</#if> col-md-12 col-12 post-warp">
+                    <div class="post-item wow fadeInRight <#if post_index == 0>item-first</#if>"
+                      data-wow-delay=".5s"
+                      style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
+                      <h6>${post.title!}</h6>
+                      <p class="post-time">${post.createTime!}</p>
+                      <p>${post.summary!}</p>
+                    </div>
+                  </div>
+                      <#--  <a href="${post.fullPath!}">${post.title!}</a>  -->
+                </#list>
+              </@postTag>
             </div>
           </div>
         </div>

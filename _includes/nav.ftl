@@ -19,19 +19,31 @@
                         </button>
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" class="navbar-nav ms-auto">
-                              <@menuTag method="listByTeam" team="${team!}">
-                                  <#--
-                                      ?sort_by('priority')：根据菜单的排序编号排序
-                                  -->
-                                  <#list menus?sort_by('priority') as menu>
-                                      <li class="nav-item">
-                                          <a href="${menu.url}" 
-                                            class="page-scroll active"
-                                            aria-label="Toggle navigation"
-                                            target="${menu.target!}">${menu.name} </a>
-                                      </li>
-                                  </#list>
-                              </@menuTag>
+															<#if team != ''>
+																<@menuTag method="listByTeam" team="${team!}">
+																		<#list menus?sort_by('priority') as menu>
+																			<li class="nav-item">
+																				<a href="${menu.url}" 
+																					class="page-scroll active"
+																					aria-label="Toggle navigation"
+																					target="${menu.target!}">${menu.name} </a>
+																			</li>
+																		</#list>
+																</@menuTag>
+															<#else>
+																<@menuTag method="list">
+																		<#list menus?sort_by('priority') as menu>
+																			<li class="nav-item">
+																				<a href="${menu.url}" 
+																					class="page-scroll active"
+																					aria-label="Toggle navigation"
+																					target="${menu.target!}">${menu.name} </a>
+																			</li>
+																		</#list>
+																</@menuTag>
+															</#if>
+
+                              
                               <#-- <li class="nav-item">
                                   <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
                                       data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
