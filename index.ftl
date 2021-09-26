@@ -165,6 +165,7 @@
             <div class="row gx-3 gy-4">
               <@postTag method="listByCategorySlug" categorySlug="sherto-news">
                 <#list posts as post>
+                  <#if post_index lt 5>
                   <div class="col-lg-<#if post_index lt 2>6<#else>4</#if> col-md-12 col-12 post-warp">
                     <div class="post-item wow fadeInRight <#if post_index == 0>item-first</#if>"
                       data-wow-delay=".5s"
@@ -174,6 +175,7 @@
                       <p>${post.summary!}</p>
                     </div>
                   </div>
+                  </#if>
                       <#--  <a href="${post.fullPath!}">${post.title!}</a>  -->
                 </#list>
               </@postTag>

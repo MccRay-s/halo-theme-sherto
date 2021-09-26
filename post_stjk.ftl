@@ -1,5 +1,5 @@
 <#include "module/macro.ftl">
-<@layout title="${blog_title!}" team="商徒聚客">
+<@layout title="${post.title!}" team="商徒聚客">
     <#--  <div class="breadcrumbs">
 			<div class="container">
 				<div class="row">

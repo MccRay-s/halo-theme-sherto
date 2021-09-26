@@ -1,13 +1,13 @@
 <#include "module/macro.ftl">
-<@layout title="${blog_title!}" team="商徒聚客">
+<@layout title="${metas.title!}" team="${metas.team!}">
     <!-- Start Hero Area -->
     <section id="home" class="hero-area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12 col-12">
                     <div class="hero-content">
-                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">商徒聚客</h1>
-                        <p class="wow fadeInLeft" data-wow-delay=".6s">找客户 | 找资源 | 找老板 - 上商徒聚客</p>
+                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">${metas.title!}</h1>
+                        <p class="wow fadeInLeft" data-wow-delay=".6s">${metas.desc!}</p>
                         <div class="button wow fadeInLeft" data-wow-delay=".8s">
                             <a href="javascript:void(0)" class="btn"><i class="lni lni-android-original"></i>Android 下载</a>
                             <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> IOS 下载</a>
@@ -165,9 +165,8 @@
     </section>
     <!-- End Call To Action Area -->
 
-
     <!-- Start Blog Area -->
-    <section id="blog" class="blog-section section">
+    <section id="case" class="blog-section section">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -213,7 +212,6 @@
       </div>
     </section>
     <!-- End Blog Area -->
-
 
     <!-- ========================= scroll-top ========================= -->
     <a href="#" class="scroll-top">
