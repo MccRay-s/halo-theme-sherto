@@ -36,15 +36,35 @@ Author: GrayGrids
         }
 
         // show or hide the back-top-top button(回到顶部)
-        var backToTo = document.querySelector(".scroll-top");
+        var backToTo = document.querySelector(".elevator");
         if(backToTo){
             if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                backToTo.style.display = "flex";
+                backToTo.style.display = "block";
             } else {
                 backToTo.style.display = "none";
             }
         }
     };
+
+    /*=====================================
+    Dialog Wechat
+    ======================================= */
+    var wechatdom = document.getElementsByClassName("wechat-img")[0];
+    var dialogModel = document.getElementsByClassName("wechat-dialog-model")[0];
+    var dialogContent = document.getElementsByClassName("wechat-dialog-content")[0];
+    wechatdom.addEventListener('click', function () {
+        dialogModel.classList.add("show");
+        dialogContent.classList.add("show");
+    });
+    dialogModel.addEventListener('click', function () {
+        dialogModel.classList.remove("show");
+        dialogContent.classList.remove("show");
+    });
+    dialogContent.addEventListener('click', function () {
+        dialogModel.classList.remove("show");
+        dialogContent.classList.remove("show");
+    });
+
 
 
     

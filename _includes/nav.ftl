@@ -19,11 +19,24 @@
                         </button>
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                             <ul id="nav" class="navbar-nav ms-auto">
+															<#assign urlPrefix=""/>
 															<#if team != ''>
+																<#if is_post??>
+																	<#if team == '商徒聚客'>
+																		<#assign urlPrefix=blog_url + "/s/shertojk" />
+																	</#if>
+																	<#if team == '商徒有榜'>
+																		<#assign urlPrefix=blog_url + "/s/styb" />
+																	</#if>
+																</#if>
 																<@menuTag method="listByTeam" team="${team!}">
 																		<#list menus?sort_by('priority') as menu>
+																			<#assign linkUrl=menu.url/>
+																			<#if !menu.url?contains(".com")>
+																				<#assign linkUrl=urlPrefix + menu.url/>
+																			</#if>
 																			<li class="nav-item">
-																				<a href="${menu.url}" 
+																				<a href="${linkUrl}" 
 																					class="page-scroll active"
 																					aria-label="Toggle navigation"
 																					target="${menu.target!}">${menu.name} </a>
@@ -31,10 +44,17 @@
 																		</#list>
 																</@menuTag>
 															<#else>
+																<#if is_post??>
+																	<#assign urlPrefix=blog_url />
+																</#if>
 																<@menuTag method="list">
 																		<#list menus?sort_by('priority') as menu>
+																			<#assign linkUrl=menu.url/>
+																			<#if !menu.url?contains(".com")>
+																				<#assign linkUrl=urlPrefix + menu.url/>
+																			</#if>
 																			<li class="nav-item">
-																				<a href="${menu.url}" 
+																				<a href="${linkUrl}" 
 																					class="page-scroll active"
 																					aria-label="Toggle navigation"
 																					target="${menu.target!}">${menu.name} </a>

@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
                     <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                        <img src="${theme_base!}/source/images/hero/phone.png" alt="#">
+                        <img src="${theme_base!}/source/images/styb_banner.png" alt="#">
                     </div>
                 </div>
             </div>

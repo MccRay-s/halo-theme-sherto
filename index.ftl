@@ -41,7 +41,7 @@
                 class="info-image wow fadeInLeft"
                 data-wow-delay=".3s"
                 style="visibility: visible;animation-delay: 0.3s;animation-name: fadeInLeft;">
-                <img class="ss1" src="${theme_base!}/source/images/stjk-img.jpg" alt="#" />
+                <img class="ss1" src="${theme_base!}/source/images/stlk-img.jpg" alt="#" />
               </div>
             </div>
             <div class="col-lg-6 col-md-12 col-12">
@@ -52,12 +52,12 @@
                 <#--  <div class="main-icon">
                   <i class="lni lni-layout"></i>
                 </div>  -->
-                <h2>商徒有榜</h2>
+                <h2>商徒聚客</h2>
                 <p>
-                  商徒有榜是基于搜索引擎推广，关键词排名，深度聚焦网站关键词优化上百度首页的SEO方法，有效提升目标客户的精准访问量和转化率。商徒有榜并提供平台建设服务，包括网站建设，微信小程序，公众号搭建，为企业量身定制，在搭建始初从域名，架构，设计等解决后续访问量问题。
+                  商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。
                 </p>
                 <div class="button">
-                  <a href="https://www.sherto.com/s/styb" class="btn">查看详情</a>
+                  <a href="https://www.sherto.com/s/shertojk" class="btn">查看详情</a>
                 </div>
               </div>
             </div>
@@ -78,12 +78,12 @@
                 <#--  <div class="main-icon">
                   <i class="lni lni-inbox"></i>
                 </div>  -->
-                <h2>商徒聚客</h2>
+                <h2>商徒有榜</h2>
                 <p>
-                  商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。
+                  商徒有榜是基于搜索引擎推广，关键词排名，深度聚焦网站关键词优化上百度首页的SEO方法，致力于打造百度榜单，有效提升目标客户的精准访问量和转化率。
                 </p>
                 <div class="button">
-                  <a href="https://www.sherto.com/s/shertojk" class="btn">查看详情</a>
+                  <a href="https://www.sherto.com/s/styb" class="btn">查看详情</a>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@
                 class="info-image wow fadeInRight"
                 data-wow-delay=".5s"
                 style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">
-                <img class="ss1" src="${theme_base!}/source/images/stlk-img.jpg" alt="#" />
+                <img class="ss1" src="${theme_base!}/source/images/stjk-img.jpg" alt="#" />
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@
 
 
     <#--  关于我们 start  -->
-    <section id="overview" class="about-info section">
+    <section id="about" class="about-info section">
       <div class="container">
         <div class="info-one style2">
           <div class="row align-items-center">
@@ -125,8 +125,10 @@
                 </div>  -->
                 <h2>关于商徒</h2>
                 <p>
-                  商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒有榜，商徒xx。
-                  商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。
+                  商徒是深圳市君商讯科技有限公司全力打造的智能拓客和营销平台，集客源采集，客户管理，品牌建设和互联网营销于一体的综合服务平台。旗下产品有商徒聚客，商徒有榜。
+                  商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。
+                  商徒有榜是基于搜索引擎推广，关键词排名，深度聚焦网站关键词优化上百度首页的SEO方法。
+                  除聚客和有榜产品外，商徒还提供平台建设服务，包括网站建设，微信小程序，公众号搭建，为企业量身定制，在搭建始初从域名，架构，设计等解决后续访问量问题。
                 </p>
                 <div class="count">
                   <div class="item">
@@ -170,7 +172,7 @@
                     <div class="post-item wow fadeInRight <#if post_index == 0>item-first</#if>"
                       data-wow-delay=".5s"
                       style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
-                      <h6>${post.title!}</h6>
+                      <h6><a href="${post.fullPath!}">${post.title!}</a></h6>
                       <p class="post-time">${post.createTime!}</p>
                       <p>${post.summary!}</p>
                     </div>
@@ -187,10 +189,27 @@
     <#--  行业资讯 end  -->
 
     <!-- ========================= scroll-top ========================= -->
-    <a href="#" class="scroll-top">
+    <#--  <a href="#" class="scroll-top">
       <i class="lni lni-chevron-up"></i>
-    </a>
+    </a>  -->
 
-
-    
+    <ul class="elevator" style="display: block;">
+      <li>
+        <a href="#" class="scroll-top">
+          <i class="lni lni-chevron-up"></i>
+        </a>
+      </li>
+      <li>
+        <a href="javaScript:void(0)" class="wechat-img">
+          <i class="lni lni lni-wechat"></i>
+        </a>
+      </li>
+    </ul>
+    <div class="wechat-dialog-model"></div>
+    <div class="wechat-dialog-content">
+      <img 
+        class="modalClose" 
+        height="610" width="332" 
+        src="/upload/2021/09/%E5%95%86%E5%BE%92%E8%81%9A%E5%AE%A2%E5%AE%A2%E6%9C%8D%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81-efe3962a66ab4fbda62166f5d6d0e587.png">
+    </div>
 </@layout>
