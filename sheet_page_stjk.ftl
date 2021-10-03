@@ -9,7 +9,7 @@
                         <h1 class="wow fadeInLeft" data-wow-delay=".4s">${metas.title!}</h1>
                         <p class="wow fadeInLeft" data-wow-delay=".6s">${metas.desc!}</p>
                         <div class="button wow fadeInLeft" data-wow-delay=".8s">
-                            <a href="javascript:void(0)" class="btn"><i class="lni lni-android-original"></i>Android 下载</a>
+                            <a href="https://res.sherto.com/files/stjk/app/android/stjk.apk" target="view_window" class="btn"><i class="lni lni-android-original"></i>Android 下载</a>
                             <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> IOS 下载</a>
                         </div>
                     </div>
