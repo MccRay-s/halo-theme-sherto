@@ -50,10 +50,10 @@
                   <div class="single-footer f-link center">
                     <h3>服务</h3>
                     <ul>
-                      <li><a href="javascript:void(0)">商徒聚客</a></li>
-                      <li><a href="javascript:void(0)">商徒来客</a></li>
-                      <li><a href="javascript:void(0)">软文分发</a></li>
-                      <li><a href="javascript:void(0)">搜索推广</a></li>
+                      <li><a href="https://www.sherto.com/s/shertojk">商徒聚客</a></li>
+                      <li><a href="https://www.sherto.com/s/styb">商徒有榜</a></li>
+                      <li><a href="#">软文分发</a></li>
+                      <li><a href="https://www.sherto.com/s/styb">搜索推广</a></li>
                     </ul>
                   </div>
                   <!-- End Single Widget -->

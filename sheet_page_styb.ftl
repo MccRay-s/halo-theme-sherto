@@ -42,7 +42,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
                         <#--  <i class="lni lni-cloud-upload"></i>  -->
                         <div class="features-img">
-                          <img class="lni lni-cloud-upload" src="/upload/2021/08/%E5%B8%82%E5%9C%BA%E6%95%B0%E6%8D%AE-388bf741c59f4072a5676b9b9012f2eb.png">
+                          <img class="lni lni-cloud-upload" src="${theme_base!}/source/images/gxjb.png">
                         </div>
                         <h3>百元上百度首页</h3>
                         <div class="feature-desc">深度聚焦上百度首页的SEO方法，有效提升目标客户的精准访问量和转化率。</div>
@@ -54,7 +54,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
                         <#--  <i class="lni lni-lock"></i>  -->
                         <div class="features-img">
-                          <img class="lni lni-cloud-upload" src="/upload/2021/08/%E8%A1%8C%E4%B8%9A%E8%A6%86%E7%9B%96-529fd13b7657487aa2e51b76c9b973cb.png">
+                          <img class="lni lni-cloud-upload" src="${theme_base!}/source/images/gxrd.png">
                         </div>
                         <h3>自然排名，打造高信任度</h3>
                         <div class="feature-desc">相对于推送广告位，有榜致力于打造自然排名，客户信任度更高</div>
@@ -66,7 +66,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
                         <#--  <i class="lni lni-reload"></i>  -->
                         <div class="features-img">
-                          <img class="lni lni-cloud-upload" src="/upload/2021/08/%E4%B8%80%E9%94%AE%E9%87%87%E9%9B%86-7238255f5b5e43debcb552aa3a6fbeb4.png">
+                          <img class="lni lni-cloud-upload" src="${theme_base!}/source/images/gwdx.png">
                         </div>
                         <h3>关键词排名稳定</h3>
                         <div class="feature-desc">纯白帽优化让关键词稳定排在搜索引擎首页</div>
