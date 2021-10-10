@@ -1,4 +1,24 @@
 <!-- Footer -->
+<!-- ========================= scroll-top ========================= -->
+<ul class="elevator" style="display: block;">
+  <li class="scroll-top-warp">
+    <a href="#" class="scroll-top">
+      <i class="lni lni-chevron-up"></i>
+    </a>
+  </li>
+  <li>
+    <a class="wechat-img">
+      <i class="lni lni lni-wechat"></i>
+    </a>
+  </li>
+</ul>
+<div class="wechat-dialog-model"></div>
+<div class="wechat-dialog-content">
+  <img 
+    class="modalClose" 
+    height="610" width="332" 
+    src="/upload/2021/09/%E5%95%86%E5%BE%92%E8%81%9A%E5%AE%A2%E5%AE%A2%E6%9C%8D%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81-efe3962a66ab4fbda62166f5d6d0e587.png">
+</div>
 <!-- ========================= JS here ========================= -->
 <script src="${theme_base!}/source/js/bootstrap.min.js"></script>
 <script src="${theme_base!}/source/js/wow.min.js"></script>
@@ -35,9 +55,9 @@
                     <img src="/upload/2021/08/%E8%B5%84%E6%BA%90%2062-4ea3dc50fe79438ba164a83ae77992ab.png" alt="#" />
                   </a>
                 </div>
-                <p class="copyright-text">找客户 | 找资源 | 找老板 - 上商徒聚客</p>
+                <p class="copyright-text">让创业更简单，让业务更好做</p>
                 <p class="copyright-text">
-                  Copyright © 商徒聚客 - 商徒 2021
+                  Copyright ©  商徒 2021
                   <@global.footer />
                 </p>
               </div>

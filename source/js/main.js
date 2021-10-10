@@ -36,7 +36,7 @@ Author: GrayGrids
         }
 
         // show or hide the back-top-top button(回到顶部)
-        var backToTo = document.querySelector(".elevator");
+        var backToTo = document.querySelector(".scroll-top-warp");
         if(backToTo){
             if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
                 backToTo.style.display = "block";

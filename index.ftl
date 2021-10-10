@@ -189,29 +189,4 @@
       </div>
     </section>
     <#--  行业资讯 end  -->
-
-    <!-- ========================= scroll-top ========================= -->
-    <#--  <a href="#" class="scroll-top">
-      <i class="lni lni-chevron-up"></i>
-    </a>  -->
-
-    <ul class="elevator" style="display: block;">
-      <li>
-        <a href="#" class="scroll-top">
-          <i class="lni lni-chevron-up"></i>
-        </a>
-      </li>
-      <li>
-        <a href="javaScript:void(0)" class="wechat-img">
-          <i class="lni lni lni-wechat"></i>
-        </a>
-      </li>
-    </ul>
-    <div class="wechat-dialog-model"></div>
-    <div class="wechat-dialog-content">
-      <img 
-        class="modalClose" 
-        height="610" width="332" 
-        src="/upload/2021/09/%E5%95%86%E5%BE%92%E8%81%9A%E5%AE%A2%E5%AE%A2%E6%9C%8D%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81-efe3962a66ab4fbda62166f5d6d0e587.png">
-    </div>
 </@layout>

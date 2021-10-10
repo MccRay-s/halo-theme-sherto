@@ -4256,6 +4256,7 @@ footer .single-footer .footer-img img{
   text-align: center;
   border-bottom: solid 1px #ededed;
   position: relative;
+  cursor: pointer;
 }
 .elevator>li:first-child>a{
   border-radius: 4px 4px 0 0;
