@@ -8,15 +8,15 @@
                     <div class="hero-content">
                         <h1 class="wow fadeInLeft" data-wow-delay=".4s">商徒</h1>
                         <p class="wow fadeInLeft" data-wow-delay=".6s">让创业更简单，让业务更好做</p>
-                        <div class="button wow fadeInLeft" data-wow-delay=".8s">
+                        <#-- <div class="button wow fadeInLeft" data-wow-delay=".8s">
                             <a href="https://res.sherto.com/files/stjk/app/android/stjk.apk" target="view_window" class="btn"><i class="lni lni-android-original"></i>Android 下载</a>
                             <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> IOS 下载</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
                     <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                        <img src="${theme_base!}/source/images/hero/phone.png" alt="#">
+                        <img src="/upload/2021/10/sherto_banner-253d71e29bb9480ea37de7a2c37c2ae9.png" alt="#">
                     </div>
                 </div>
             </div>
