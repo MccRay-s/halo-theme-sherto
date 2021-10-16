@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
                     <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                        <img src="/upload/2021/10/sherto_banner-253d71e29bb9480ea37de7a2c37c2ae9.png" alt="#">
+                        <img src="/upload/2021/10/%E5%95%86%E5%BE%92%E6%8F%92%E7%94%BB2-54cdd63317844d09be27878604d65c01.png" alt="#">
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                   商徒聚客是基于互联网大数据下，将行业拓客，客户管理和内容营销集于一体的拓客工具。整合百度地图、高德地图、腾讯地图等各大平台的商业信息，将互联网大数据资源应用于传统行业客源拓展，客源覆盖美容、粮油米面、白酒、茶叶、家纺、建材、汽配、科技、数码、互联网等各行各业。
                 </p>
                 <div class="button">
-                  <a href="https://www.sherto.com/s/shertojk" class="btn">查看详情</a>
+                  <a href="https://jk.sherto.com" class="btn">查看详情</a>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@
                   商徒有榜是基于搜索引擎推广，关键词排名，深度聚焦网站关键词优化上百度首页的SEO方法，致力于打造百度榜单，有效提升目标客户的精准访问量和转化率。
                 </p>
                 <div class="button">
-                  <a href="https://www.sherto.com/s/styb" class="btn">查看详情</a>
+                  <a href="https://yb.sherto.com" class="btn">查看详情</a>
                 </div>
               </div>
             </div>
