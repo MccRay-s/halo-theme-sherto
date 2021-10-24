@@ -131,7 +131,7 @@
                     <div class="post-item wow fadeInRight <#if post_index == 0>item-first</#if>"
                       data-wow-delay=".5s"
                       style="visibility: visible;animation-delay: 0.5s;animation-name: fadeInRight;">
-                      <h6>${post.title!}</h6>
+                      <h6><a href="${blog_url!}${post.fullPath!}">${post.title!}</a></h6>
                       <p class="post-time">${post.createTime!}</p>
                       <p>${post.summary!}</p>
                     </div>

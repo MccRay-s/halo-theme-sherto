@@ -10,7 +10,15 @@
                         <p class="wow fadeInLeft" data-wow-delay=".6s">${metas.desc!}</p>
                         <div class="button wow fadeInLeft" data-wow-delay=".8s">
                             <a href="https://res.sherto.com/files/stjk/app/android/stjk.apk" target="view_window" class="btn"><i class="lni lni-android-original"></i>Android 下载</a>
-                            <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> IOS 下载</a>
+                            <#--  <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> IOS 下载</a>  -->
+                            <!-- Button trigger modal -->
+                            <button type="button" 
+                              class="btn example-popover" 
+                              data-bs-container="body" 
+                              data-bs-toggle="popover" 
+                              data-bs-placement="bottom" 
+                              data-bs-content="即将推出，敬请期待"
+                            ><i class="lni lni-apple"></i>IOS 下载</button>
                         </div>
                     </div>
                 </div>
@@ -196,12 +204,12 @@
                 <div class="single-blog wow fadeInUp" data-wow-delay=".2s"
                   style="visibility: visible;animation-delay: 0.2s;animation-name: fadeInUp;">
                   <div class="blog-img">
-                    <a href="${post.fullPath!}">
+                    <a href="${blog_url!}${post.fullPath!}">
                       <img src="${post.thumbnail!'${theme_base!}/source/images/post_default_thumbnail.png'}" alt="${post.title!}" />
                     </a>
                   </div>
                   <div class="blog-content">
-                    <h4><a href="${post.fullPath!}">${post.title!}</a></h4>
+                    <h4><a href="${blog_url!}${post.fullPath!}">${post.title!}</a></h4>
                     <p>${post.summary!}</p>
                   </div>
                 </div>

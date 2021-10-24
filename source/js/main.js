@@ -135,4 +135,8 @@ Author: GrayGrids
     navbarToggler.addEventListener('click', function () {
         navbarToggler.classList.toggle("active");
     });
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+    })
 })();
