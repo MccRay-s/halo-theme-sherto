@@ -9,7 +9,7 @@
                         <h1 class="wow fadeInLeft" data-wow-delay=".4s">${metas.title!}</h1>
                         <p class="wow fadeInLeft" data-wow-delay=".6s">${metas.desc!}</p>
                         <div class="button wow fadeInLeft" data-wow-delay=".8s">
-                            <a href="https://stjk-s.sherto.com/other/appurl?appStore=guanwang" target="view_window" class="btn"><i class="lni lni-android-original"></i>Android 下载</a>
+                            <a href="https://download.sherto.com/?appStore=guanfang" target="view_window" class="btn"><i class="lni lni-android-original"></i>Android 下载</a>
                             <#--  <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> IOS 下载</a>  -->
                             <!-- Button trigger modal -->
                             <button type="button" 
